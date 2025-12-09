@@ -345,9 +345,9 @@ p {
   h1 {
     font-size: 23vw;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     max-width: 100%;
-
+    mix-blend-mode: difference;
 
   }
 
@@ -478,6 +478,7 @@ p {
     margin-left: -7.4rem;
     position: relative;
     z-index: 1;
+    mix-blend-mode: difference;
 
   }
 
@@ -485,10 +486,10 @@ p {
   h1 {
     font-size: 16vw;
     text-align: center;
-    /* color: white; */
-    color: black;
+    color: rgb(255, 255, 255);
     line-height: 0.85;
     max-width: 100%;
+
     /* letter-spacing: .05em; */
   }
 
